@@ -10,7 +10,7 @@
 - Task: Write a function fetchData() that simulates fetching two pieces of data. First, fetch "User Info," and once resolved, fetch "User Preferences." Chain both promises.
 - Objective: Practice Chaining multiple promises and understanding sequence in promises.
 
-### 3. Using Async/Await with Simple Timeout
+### 3. Simulate Countdown using Promises
 
 - Task: Create an async function countDown(seconds) that uses a setTimeout in a promise to wait for each second, then console logs the countdown.
 - Objective: Practice Combining async/await with setTimeout to simulate delay.
