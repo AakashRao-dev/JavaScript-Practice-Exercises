@@ -2,10 +2,14 @@
 
 > Goal is to build a strong problem solving skill with JavaScript. Starting with basic to intermediate problems and gradually increasing the complexity.
 
-### Basic Lvl Problems
+## Basic Lvl Problems
 
-| Problem                                    | Solving Date |
+| Coding Challenges                          | Solving Date |
 | :----------------------------------------- | -----------: |
+| Basic Promise Creation                     |              |
+| Chaining Promises                          |              |
+| Using Async/Await with Simple Timeout      |              |
+| Basic AJAX Request with Fetch API          |              |
 | Reverse a String                           |              |
 | Find the Largest Number in an Array        |              |
 | Check if a String is a Palindrome          |              |
@@ -45,10 +49,14 @@
 | Check if Two Strings are Anagrams          |              |
 | Binary Search                              |              |
 
-### Intermediate Lvl Problems
+## Intermediate Lvl Problems
 
 | Problem                                             | Solving Date |
 | :-------------------------------------------------- | -----------: |
+| Sequential API Calls Using Promises                 |              |
+| Error Handling in Async/Await                       |              |
+| Parallel API Requests with Async/Await              |              |
+| Creating a Loader with AJAX                         |              |
 | Sort an Array of Objects by a Property              |              |
 | Calculate the Hamming Distance                      |              |
 | Find Missing Number in an Array                     |              |
@@ -76,10 +84,17 @@
 | Find All Possible Combinations of Array Elements    |              |
 | Find the Majority Element in an Array               |              |
 
-### Advanced Lvl Problems
+## Advanced Lvl Problems
 
 | Problem                                       | Solving Date |
 | :-------------------------------------------- | -----------: |
+| Chained Fetches with Dynamic URLs             |              |
+| Custom Promise-Based AJAX Wrapper             |              |
+| Implementing a Debounced Search with AJAX     |              |
+| Promise-based Throttled API Request           |              |
+| Cancelable Fetch Request                      |              |
+| Exponential Backoff Retry Mechanism           |              |
+| Cascading Data Fetch with Dependency          |              |
 | Deep Clone an Object with Circular References |              |
 | Custom Promise.all Implementation             |              |
 | LruCache Class                                |              |
