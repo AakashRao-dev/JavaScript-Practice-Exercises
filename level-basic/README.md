@@ -6,12 +6,12 @@
 | 2   | Chaining Promises                          |     27-10-24 |
 | 3   | Using Async/Await with Simple Timeout      |     27-10-24 |
 | 4   | Basic AJAX Request with Fetch API          |     27-10-24 |
-| 5   | Reverse a String                           |              |
-| 6   | Find the Largest Number in an Array        |              |
-| 7   | Check if a String is a Palindrome          |              |
-| 8   | Capitalize the First Letter of Each Word   |              |
-| 9   | Remove Duplicates from an Array            |              |
-| 10  | Sum of Array Elements                      |              |
+| 5   | Reverse a String                           |     06-11-24 |
+| 6   | Find the Largest Number in an Array        |     06-11-24 |
+| 7   | Check if a String is a Palindrome          |     06-11-24 |
+| 8   | Capitalize the First Letter of Each Word   |     06-11-24 |
+| 9   | Remove Duplicates from an Array            |     06-11-24 |
+| 10  | Sum of Array Elements                      |     06-11-24 |
 | 11  | Check if Array is Sorted                   |              |
 | 12  | Count the Occurrences of a Character       |              |
 | 13  | Find Index of a Target in an Array         |              |

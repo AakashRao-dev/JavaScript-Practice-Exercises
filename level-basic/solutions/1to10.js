@@ -66,6 +66,7 @@ fetchData();
 // ============== 3. SIMULATE COUNTDOWN USING PROMISES ==============
 
 /*
+// Creates a delay
 function delay(sec) {
   return new Promise(resolve => setTimeout(resolve, sec * 1000));
 }
@@ -92,4 +93,90 @@ const getUserData = async () => {
 };
 
 getUserData();
+*/
+
+// =================================================
+// ============== 5. REVERSE A STRING ==============
+
+/*
+function reverseString(str) {
+  return str.split('').reverse().join('');
+}
+
+reverseString('hello');
+reverseString('Aakash Rao');
+*/
+
+// ===========================================================
+// ============== 6. LARGEST NUMBER IN AN ARRAY ==============
+
+/*
+function findLargest(arr) {
+  return arr.reduce((acc, curr) => (curr > acc ? curr : acc), 0);
+}
+
+console.log(findLargest([5, 12, 71, 16, 20])); // 71
+console.log(findLargest([991, 42, 1002, 48])); // 1002
+*/
+
+// ==================================================================
+// ============== 7. CHECK IF A STRING IS A PALINDROME ==============
+
+/*
+function isPalindrome(str) {
+  const splitString = str.toLowerCase().split('');
+  const reversedString = str.toLowerCase().split('').reverse();
+
+  for (let i = 0; i < str.length; i++) {
+    if (splitString[i] !== reversedString[i]) {
+      return 'Not a Palindrome String 😢';
+    }
+  }
+
+  return "Hell yeah! It's a Palindrome String 🎉";
+}
+
+console.log(isPalindrome('Level'));
+*/
+
+// =========================================================
+// ============== 8. CAPLITALIZE FIRST LETTER ==============
+
+/*
+function capitalizeWords(str) {
+  return str
+    .split(' ')
+    .map(str => str[0].toUpperCase() + str.slice(1))
+    .join(' ');
+}
+
+console.log(capitalizeWords('hello world')); // 'Hello World'
+*/
+
+// =============================================================
+// ============== 9. REMOVE DUPLICATES FROM ARRAY ==============
+
+/*
+function removeDuplicates(arr) {
+  return arr.reduce((acc, curr) => {
+    if (!acc.includes(curr)) {
+      acc.push(curr);
+    }
+    return acc;
+  }, []);
+}
+
+removeDuplicates([5, 5, 4, 7, 10]); // [5, 4, 7, 10]
+*/
+
+// =============================================================
+// ================= 10. SUM OF ARRAY ELEMENTS =================
+
+/*
+function sumArray(arr) {
+  return arr.reduce((acc, curr) => acc + curr, 0);
+}
+
+sumArray([1, 2, 3, 4, 5]); // 15
+sumArray([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]); // 55
 */
